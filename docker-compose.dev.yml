@@ -31,3 +31,9 @@ services:
     volumes:
       - ./haproxy.conf:/usr/local/etc/haproxy/haproxy.cfg
       - ./haproxy.pem:/etc/ssl/certs/mysite.pem
+
+  issuer:
+    container_name: issuer
+    build: eudi-srv-web-issuing-eudiw-py
+    ports:
+      - "5000:5000"

@@ -1,0 +1,19 @@
+authtoken: <token>
+region: eu
+tunnels:
+    verifier:
+        proto: http
+        addr: 8080
+        schemes:
+            - https
+    verifier-ui:
+        proto: http
+        addr: 4300
+        schemes:
+            - https
+    issuer:
+        proto: http
+        addr: 5000
+        schemes:
+            - https
+version: "2"
