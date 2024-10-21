@@ -1,6 +1,9 @@
 # eudi component deployment
 This repository contains the 'docker-compose.yml' files to deploy eudi components for verifying and issuing
 
+## NOTE
+Please clone the `eudi-app-ios-wallet-ui` repo, switch to the `demo` branch and use that version of the wallet app. No special modifications were made to the wallet, but this is the latest version of the wallet that has been confirmed to be compatible.
+
 ## Quickstart
 1. Clone this repo
 2. Clone the `eudi-web-server`, `eudi-srv-web-verifier-endpoint-23220-4-kt` and `eudi-srv-web-issuing-eudiw-py`  repos and place them in this repo's directory. For all of these repos please switch to the `demo` branch.
